@@ -1,7 +1,7 @@
-package me.archdev.utils
+package me.abanda.utils
 
 import de.flapdoodle.embed.process.runtime.Network._
-import me.archdev.restapi.utils.db.{DatabaseConnector, DatabaseMigrationManager}
+import me.abanda.restapi.utils.db.{DatabaseConnector, DatabaseMigrationManager}
 import ru.yandex.qatools.embed.postgresql.PostgresStarter
 import ru.yandex.qatools.embed.postgresql.config.AbstractPostgresConfig.{Credentials, Net, Storage, Timeout}
 import ru.yandex.qatools.embed.postgresql.config.PostgresConfig

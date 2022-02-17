@@ -1,4 +1,4 @@
-package me.archdev.http.routes
+package me.abanda.http.routes
 
 import java.util.UUID
 
@@ -7,10 +7,10 @@ import akka.http.scaladsl.model.headers.RawHeader
 import akka.http.scaladsl.server.Route
 import io.circe.generic.auto._
 import io.circe.syntax._
-import me.archdev.BaseServiceTest
-import me.archdev.restapi.core.{AuthTokenContent, UserProfile, UserProfileUpdate}
-import me.archdev.restapi.core.profiles.UserProfileService
-import me.archdev.restapi.http.routes.ProfileRoute
+import me.abanda.BaseServiceTest
+import me.abanda.restapi.core.{AuthTokenContent, UserProfile, UserProfileUpdate}
+import me.abanda.restapi.core.profiles.UserProfileService
+import me.abanda.restapi.http.routes.ProfileRoute
 import org.mockito.Mockito.when
 import pdi.jwt.{Jwt, JwtAlgorithm}
 

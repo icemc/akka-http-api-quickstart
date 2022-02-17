@@ -1,11 +1,11 @@
-package me.archdev.core.profiles
+package me.abanda.core.profiles
 
 import java.util.UUID
 
-import me.archdev.BaseServiceTest
-import me.archdev.restapi.core.UserProfile
-import me.archdev.restapi.core.profiles.{InMemoryUserProfileStorage, JdbcUserProfileStorage, UserProfileStorage}
-import me.archdev.utils.InMemoryPostgresStorage
+import me.abanda.BaseServiceTest
+import me.abanda.restapi.core.UserProfile
+import me.abanda.restapi.core.profiles.{InMemoryUserProfileStorage, JdbcUserProfileStorage, UserProfileStorage}
+import me.abanda.utils.InMemoryPostgresStorage
 
 import scala.util.Random
 

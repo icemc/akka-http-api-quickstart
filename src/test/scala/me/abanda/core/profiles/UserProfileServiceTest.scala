@@ -1,10 +1,10 @@
-package me.archdev.core.profiles
+package me.abanda.core.profiles
 
 import java.util.UUID
 
-import me.archdev.BaseServiceTest
-import me.archdev.restapi.core.{UserProfile, UserProfileUpdate}
-import me.archdev.restapi.core.profiles.{InMemoryUserProfileStorage, UserProfileService}
+import me.abanda.BaseServiceTest
+import me.abanda.restapi.core.{UserProfile, UserProfileUpdate}
+import me.abanda.restapi.core.profiles.{InMemoryUserProfileStorage, UserProfileService}
 
 import scala.util.Random
 

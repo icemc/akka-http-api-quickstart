@@ -1,7 +1,7 @@
-package me.archdev
+package me.abanda
 
-import me.archdev.restapi.Boot
-import me.archdev.utils.InMemoryPostgresStorage
+import me.abanda.restapi.Boot
+import me.abanda.utils.InMemoryPostgresStorage
 import sttp.client3._
 import sttp.client3.akkahttp._
 

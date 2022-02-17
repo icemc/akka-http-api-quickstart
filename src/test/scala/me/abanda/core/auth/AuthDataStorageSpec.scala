@@ -1,11 +1,11 @@
-package me.archdev.core.auth
+package me.abanda.core.auth
 
 import java.util.UUID
 
-import me.archdev.BaseServiceTest
-import me.archdev.restapi.core.AuthData
-import me.archdev.restapi.core.auth.{AuthDataStorage, InMemoryAuthDataStorage, JdbcAuthDataStorage}
-import me.archdev.utils.InMemoryPostgresStorage
+import me.abanda.BaseServiceTest
+import me.abanda.restapi.core.AuthData
+import me.abanda.restapi.core.auth.{AuthDataStorage, InMemoryAuthDataStorage, JdbcAuthDataStorage}
+import me.abanda.utils.InMemoryPostgresStorage
 
 import scala.util.Random
 

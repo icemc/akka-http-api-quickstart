@@ -1,11 +1,11 @@
-package me.archdev.core.auth
+package me.abanda.core.auth
 
 import java.util.UUID
 
 import com.roundeights.hasher.Implicits._
-import me.archdev.BaseServiceTest
-import me.archdev.restapi.core.AuthData
-import me.archdev.restapi.core.auth.{AuthService, InMemoryAuthDataStorage}
+import me.abanda.BaseServiceTest
+import me.abanda.restapi.core.AuthData
+import me.abanda.restapi.core.auth.{AuthService, InMemoryAuthDataStorage}
 import pdi.jwt.{Jwt, JwtAlgorithm}
 
 import scala.util.Random
