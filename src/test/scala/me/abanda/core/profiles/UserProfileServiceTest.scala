@@ -3,8 +3,8 @@ package me.abanda.core.profiles
 import java.util.UUID
 
 import me.abanda.BaseServiceTest
-import me.abanda.restapi.core.{UserProfile, UserProfileUpdate}
-import me.abanda.restapi.core.profiles.{InMemoryUserProfileStorage, UserProfileService}
+import me.abanda.core.{UserProfile, UserProfileUpdate}
+import me.abanda.core.profiles.{InMemoryUserProfileStorage, UserProfileService}
 
 import scala.util.Random
 

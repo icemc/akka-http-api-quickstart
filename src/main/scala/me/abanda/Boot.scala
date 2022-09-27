@@ -2,17 +2,17 @@ package me.abanda
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
-import me.abanda.core.auth.{ AuthService, JdbcAuthDataStorage }
-import me.abanda.core.profiles.{ JdbcUserProfileStorage, UserProfileService }
+import me.abanda.core.auth.{AuthService, JdbcAuthDataStorage}
+import me.abanda.core.profiles.{JdbcUserProfileStorage, UserProfileService}
 import me.abanda.http.HttpRoute
 import me.abanda.utils.Config
-import me.abanda.utils.db.{ DatabaseConnector, DatabaseMigrationManager }
+import me.abanda.utils.db.{DatabaseConnector, DatabaseMigrationManager}
 
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{ExecutionContext, Future}
 
 object Boot extends App {
 
-  def startApplication() = {
+  def startApplication(): Future[Http.ServerBinding] = {
     implicit val actorSystem                     = ActorSystem()
     implicit val executor: ExecutionContext      = actorSystem.dispatcher
 

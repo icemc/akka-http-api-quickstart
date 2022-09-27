@@ -3,8 +3,8 @@ package me.abanda.core.profiles
 import java.util.UUID
 
 import me.abanda.BaseServiceTest
-import me.abanda.restapi.core.UserProfile
-import me.abanda.restapi.core.profiles.{InMemoryUserProfileStorage, JdbcUserProfileStorage, UserProfileStorage}
+import me.abanda.core.UserProfile
+import me.abanda.core.profiles.{InMemoryUserProfileStorage, JdbcUserProfileStorage, UserProfileStorage}
 import me.abanda.utils.InMemoryPostgresStorage
 
 import scala.util.Random

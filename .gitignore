@@ -10,6 +10,9 @@ target/
 lib_managed/
 src_managed/
 project/boot/
+project/.bloop/
+project/project/.bloop/
+project/project/metals.sbt
 project/plugins/project/
 
 # Scala-IDE specific
@@ -21,3 +24,5 @@ rest.iml
 .vscode/
 .metals/
 .blob/
+.bsp/
+.bloop/

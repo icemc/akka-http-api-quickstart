@@ -8,9 +8,9 @@ import akka.http.scaladsl.server.Route
 import io.circe.generic.auto._
 import io.circe.syntax._
 import me.abanda.BaseServiceTest
-import me.abanda.restapi.core.{AuthTokenContent, UserProfile, UserProfileUpdate}
-import me.abanda.restapi.core.profiles.UserProfileService
-import me.abanda.restapi.http.routes.ProfileRoute
+import me.abanda.core.{AuthTokenContent, UserProfile, UserProfileUpdate}
+import me.abanda.core.profiles.UserProfileService
+import me.abanda.http.routes.ProfileRoute
 import org.mockito.Mockito.when
 import pdi.jwt.{Jwt, JwtAlgorithm}
 

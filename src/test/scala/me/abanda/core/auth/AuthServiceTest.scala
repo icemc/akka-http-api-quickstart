@@ -4,8 +4,8 @@ import java.util.UUID
 
 import com.roundeights.hasher.Implicits._
 import me.abanda.BaseServiceTest
-import me.abanda.restapi.core.AuthData
-import me.abanda.restapi.core.auth.{AuthService, InMemoryAuthDataStorage}
+import me.abanda.core.AuthData
+import me.abanda.core.auth.{AuthService, InMemoryAuthDataStorage}
 import pdi.jwt.{Jwt, JwtAlgorithm}
 
 import scala.util.Random

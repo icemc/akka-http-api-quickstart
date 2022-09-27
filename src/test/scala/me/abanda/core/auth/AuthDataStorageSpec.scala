@@ -3,8 +3,8 @@ package me.abanda.core.auth
 import java.util.UUID
 
 import me.abanda.BaseServiceTest
-import me.abanda.restapi.core.AuthData
-import me.abanda.restapi.core.auth.{AuthDataStorage, InMemoryAuthDataStorage, JdbcAuthDataStorage}
+import me.abanda.core.AuthData
+import me.abanda.core.auth.{AuthDataStorage, InMemoryAuthDataStorage, JdbcAuthDataStorage}
 import me.abanda.utils.InMemoryPostgresStorage
 
 import scala.util.Random

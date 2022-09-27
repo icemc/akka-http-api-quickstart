@@ -2,9 +2,9 @@ package me.abanda.http
 
 import akka.http.scaladsl.server.Route
 import me.abanda.BaseServiceTest
-import me.abanda.restapi.core.auth.AuthService
-import me.abanda.restapi.core.profiles.UserProfileService
-import me.abanda.restapi.http.HttpRoute
+import me.abanda.core.auth.AuthService
+import me.abanda.core.profiles.UserProfileService
+import me.abanda.http.HttpRoute
 
 class HttpRouteTest extends BaseServiceTest {
 

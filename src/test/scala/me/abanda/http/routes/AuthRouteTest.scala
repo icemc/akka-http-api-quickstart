@@ -3,8 +3,8 @@ package me.abanda.http.routes
 import akka.http.scaladsl.model.{HttpEntity, MediaTypes}
 import akka.http.scaladsl.server.Route
 import me.abanda.BaseServiceTest
-import me.abanda.restapi.core.auth.AuthService
-import me.abanda.restapi.http.routes.AuthRoute
+import me.abanda.core.auth.AuthService
+import me.abanda.http.routes.AuthRoute
 import org.mockito.Mockito._
 
 import scala.concurrent.Future

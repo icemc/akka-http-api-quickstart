@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "akka-http-quickstart-build",
-        "directory": "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project",
-        "workspaceDir": "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project",
+        "directory": "E:\\abanda.me\\workshop\\akka-http-quickstart\\project",
+        "workspaceDir": "E:\\abanda.me\\workshop\\akka-http-quickstart\\project",
         "sources": [
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\src\\main\\scala",
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\src\\main\\scala-2",
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\src\\main\\java",
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\src\\main\\scala",
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\src\\main\\scala-2.12",
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\src\\main\\scala-2",
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\src\\main\\java",
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\src\\main\\scala-sbt-1.0",
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -117,11 +117,11 @@
             "C:\\Users\\Abanda\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.2\\reactive-streams-1.0.2.jar",
             "C:\\Users\\Abanda\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okio\\okio\\1.17.2\\okio-1.17.2.jar"
         ],
-        "out": "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\.bloop\\akka-http-quickstart-build",
-        "classesDir": "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\.bloop\\akka-http-quickstart-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\.bloop\\akka-http-quickstart-build",
+        "classesDir": "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\.bloop\\akka-http-quickstart-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\src\\main\\resources",
-            "C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\src\\main\\resources",
+            "E:\\abanda.me\\workshop\\akka-http-quickstart\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -205,9 +205,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Java\\jre1.8.0_281",
+                "home": "C:\\Program Files\\Java\\jdk1.8.0_281\\jre",
                 "options": [
-                    "-Duser.dir=C:\\Users\\Abanda\\Downloads\\Compressed\\akka-http-quickstart\\project"
+                    "-Duser.dir=E:\\abanda.me\\workshop\\akka-http-quickstart\\project"
                 ]
             },
             "mainClass": [
